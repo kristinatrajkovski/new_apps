@@ -90,3 +90,13 @@ Story 10
         d.	Multiple choice friend search box
         e.	Host playdate button
     3.	Whenever a dog hosts a playdate, the friends it invited receive a notification
+    
+Views:
+    1. Login page
+    2. Signup page
+    3. Feed
+    4. Comments
+    5. Friend Requests
+    6. Search for new friends
+    7. Playdate feed
+    8. Host a playdate
