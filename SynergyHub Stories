@@ -1,0 +1,57 @@
+Story 1
+“A user can view all tasks in the system”
+    1.	A user logs in to the system with a username and password
+    2.	On the first page, a list of all tasks appears in chronological order of creation.  Each task has a
+        a.	Name
+        b.	Assignee (if applicable)
+        c.	Status (complete or incomplete)
+        d.	Estimated completion time
+
+Story 2
+“A manager can create a new task”
+    1.	From any page in the application, a manager can see a create task button.
+    2.	After clicking the button, the manager sees a form to fill out to specify a new task, consisting of:
+        a.	A textbox for a title
+        b.	A textbox for a description
+        c.	A dropdown to see which team members to assign the task
+    The manager can click a “create” button, after which the task is visible in the task list for all users.
+
+Story 3
+“A manager can assign a task to other users”
+    1.	From the task list, a manager can click a task to see the task in detail
+    2.	The manager sees the current assigned users, and can change the users via a dropdown.
+    3.	The manager clicks a “save” button
+    4.	In the task list, the assigned users for that task are updated
+
+
+Story 4
+“A user can mark their task as complete”
+    1.	From the task list, any user can click a task and see the task in detail 
+    2.	If there are multiple assignees, that title turns into a link to the group work page
+    3.	If the task is assigned to the current user, and they have not input the estimated time of completion, they see a “Add time estimate” button
+    4.	If the task is assigned to the current user, and not yet complete, they see a “complete task” button.
+    5.	After the user clicks the “complete task” button and returns to the task list, the task is marked complete.
+
+Story 5
+“A user inputs a time estimate for a task”
+
+    1.	Suppose the user was on the task list, clicked on a task, could see the task in detail and has clicked on “Add time estimate” button
+    2.	At the new page, the user can see the description again (to evaluate the time better), a time input box and a save button
+    3.	After clicking save, the user can see the task in detail again, but without the “Add time estimate button”, but instead with clearly written new information. Also, the time estimate column at the CEO is updated
+
+Story 6
+    “When CEO assigns a task to multiple employees, employees with the same task can contact each other, see each other’s progress, work together”
+    1.	Suppose a user can see the task in detail, there are multiple assignees and the user clicks on the assignees link 
+    2.	At the progress feed, new work of all team members can be seen in chronological order
+    3.	User can add a file and comment to the feed
+    4.	A chat box appears in the lower right corner
+
+Views:
+    1.	Login page
+    2.	Task list (home)
+    3.	Create task form
+    4.	Task detail
+    5.	Add time estimate
+    6.	Group work
+
+
