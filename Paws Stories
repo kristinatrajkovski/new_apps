@@ -1,0 +1,121 @@
+PAWS
+A PLACE WHERE DOGS FIND FAMILIES
+
+Some user stories:
+1.	A user can log in
+2.	A user can create a new account 
+3.	A user has a profile
+4.	A user can search for their missing dog
+5.	A user can report a dog they have found
+6.	A user can give a dog up for adoption
+7.	A user can search for dogs to adopt
+
+
+Story 1
+“A user can log in”
+
+1.	A user sees a login page (email information, password, login button, and a create a new account button)
+2.	If a login is successful, a user is redirected to the main page
+
+
+Story 2
+“A user can create a new account”
+
+1.	Suppose a user is on the login page, but does not have an account yet, so clicks on create a new account button
+2.	A user sees a form with:
+		a. Name*
+		b. Email*
+c. Password*
+d. Confirm password*
+e. Location (not mandatory, but makes it easier for  finding a pet)
+f. Create account button
+3.	If a signup is successful, the user is redirected to the main page
+		
+		
+
+Story 3
+“A user has a profile”
+
+1.	The profile button appears on every page
+2.	When clicked on the button, the user can update their contact information and location, but can also see their previous missing dog reports, found dog reports, and dogs put up for adoption
+	
+
+Story 4
+“A user can search for their missing dog”
+
+1.	Suppose a user is logged in and can currently see the main page
+2.	The user clicks on the first option (search for missing dog)
+3.	A form appears with:
+    a.	Picture (if applicable)
+    b.	Dog’s breed
+    c.	Age group
+    d.	Name it could react to
+    e.	Time and place it was last seen
+    f.	Owner’s contact information
+    g.	Search button
+4. After clicking search, a map appears with points referring to reported dogs with similar characteristics, serving as a link to the profile of the person who has found the dog
+5. The missing dog’s form will appear on the user’s profile and the search map of users who have found a similar dog
+		
+		
+Story 5
+“A user can report a dog they have found”
+
+1.	Suppose a user is logged in and can currently see the main page
+2.	The user clicks on the second option (report found dog)
+3.	A form appears with:
+    a.	Picture (if applicable)
+    b.	Dog’s breed
+    c.	Estimated age group
+    d.	Time and place it has been found at
+    e.	user’s contact information
+    f.	Report button
+4. After clicking report, a map appears with points referring to reported missing dogs with similar characteristics, serving as a link to the dog owner’s profile
+5. The found dog’s form will appear on the user’s profile and the search map of users who have lost a similar dog
+		
+		
+
+
+Story 6
+“A user can give a dog up for adoption”
+
+1.	Suppose a user is logged in and can currently see the main page
+2.	The user clicks on the third option (give dog up for adoption)
+3.	A form appears with:
+    a.	Picture (if applicable)
+    b.	Dog’s breed
+    c.	Age group
+    d.	Its current location
+    e.	Contact information
+    f.	Save button
+4. The dog’s form will appear on the user’s profile and the search map of people looking to adopt a similar dog
+		
+		
+
+
+Story 7
+“A user can search for dogs to adopt”
+
+1.	Suppose a user is logged in and can currently see the main page
+2.	The user clicks on the fourth option (adopt a dog)
+3.	A form appears with:
+    a.	Dog’s breed
+    b.	Age group
+    c.	location
+    d.	Search button
+4. After clicking search, a map appears with points referring to dogs put up for adoption with similar characteristics, serving as a link to the current owner’s profile
+
+
+
+List of views:
+1.	Login page
+2.	Create new account
+3.	Profile
+4.	Main page
+5.	Search for missing dog
+6.	Report found dog
+7.	Give dog up for adoption
+8.	Adopt a dog
+		
+		
+
+
